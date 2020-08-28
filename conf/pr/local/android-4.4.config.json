@@ -1,7 +1,0 @@
-{
-    "platform": "android@latest",
-    "action": "run",
-    "cleanUpAfterRun": true,
-    "target": "api19",
-    "verbose": true
-}
