@@ -34,7 +34,7 @@ node_js: 12
 
 _ios: &_ios
   os: osx
-  osx_image: xcode11.5
+  osx_image: xcode11.6
 
 _android: &_android
   language: android
@@ -60,6 +60,8 @@ matrix:
     - env: PLATFORM=local/browser
       <<: *_ios
     - env: PLATFORM=local/ios-10.0
+      <<: *_ios
+    - env: PLATFORM=local/ios-13.6
       <<: *_ios
 
     # many tests with saucelabs
