@@ -1,9 +1,10 @@
 {
-    "platform": "android-31",
+    "platform": "android@11",
     "action": "run",
     "cleanUpAfterRun": true,
     "shouldUseSauce": true,
     "saucePlatformVersion": "12.0",
     "sauceDeviceName": "Android GoogleAPI Emulator",
+    "args": " -- --gradleArg=-PcdvMinSdkVersion=31",
     "verbose": true
 }
