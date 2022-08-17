@@ -45,6 +45,7 @@
     <platform name="android">
       <config-file target="config.xml" parent="/*">
         <preference name="android-targetSdkVersion" value="31" />
+        <preference name="android-minSdkVersion" value="31" />
         <!-- <preference name="AndroidInsecureFileModeEnabled" value="true" /> -->
         <!-- the logging server is http so force the webview to also be http -->
         <preference name="scheme" value="http" />
