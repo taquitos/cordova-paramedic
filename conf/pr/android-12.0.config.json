@@ -1,5 +1,5 @@
 {
-    "platform": "android@latest",
+    "platform": "android-31",
     "action": "run",
     "cleanUpAfterRun": true,
     "shouldUseSauce": true,
