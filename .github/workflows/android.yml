@@ -84,6 +84,10 @@ jobs:
             android-api: 30
             java-version: 11
 
+          - android: 12
+            android-api: 31
+            java-version: 11
+
     timeout-minutes: 60
 
     steps:
